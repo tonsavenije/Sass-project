@@ -1,0 +1,27 @@
+// components/_buttons.scss
+
+.push-button {
+	font-size: em(20);
+	line-height: em(20 * 2.2);
+	display:block;
+	width: em(300);
+	margin: $margin-base;
+	@include gradient-push-button;
+	@include rounded(em(3));
+	@include box-shadow-1;
+	
+	LABEL {
+		display: block;
+		width: 100%;
+		font-variant: small-caps;
+		text-align: center;
+		color: $color-white;
+	}
+	
+	:hover {
+		@include gradient-push-button-flip;
+		@include box-shadow-0;
+		@include rounded(em(3));
+		cursor: pointer;
+	}
+}

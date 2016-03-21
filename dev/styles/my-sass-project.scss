@@ -1,0 +1,35 @@
+@import 'reset';
+@import 'mixins';
+@import 'functions';
+
+// base
+$base-px: 16; //16px
+$base-em: $base-px;
+
+// colors
+$color-background: #EEE8E8;
+$color-shadow: rgba(20, 20, 20, .2);
+$color-primary: #01B590;
+$color-primary-darker: #028767;
+$color-hyperlink: #E0B58A;
+$color-hover: #D6995A;
+$color-white: #FFFFFF;
+
+// margins
+$margin-base: 1rem;
+
+// typography
+@import 'components/typography.scss';
+
+BODY {
+	background-color: $color-background;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	font-size: $base-px;
+}
+
+P {
+	font-size: em(24);
+}
+
+@import 'components/buttons';

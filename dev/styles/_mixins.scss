@@ -1,0 +1,38 @@
+// _mixins
+// Place your general mixins in this file
+
+// Shadows
+@mixin box-shadow($top, $left, $blur, $color) {
+	-webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+} 
+
+@mixin box-shadow-0() {
+	@include box-shadow(em(1), em(1), em(1), $color-shadow);
+}
+@mixin box-shadow-1() {
+	@include box-shadow(em(2), em(2), em(3), $color-shadow);
+}
+
+
+// Round-corners
+@mixin rounded($radius: em(8)) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+// Gradients
+@mixin gradient($from, $to) {
+  background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background: -moz-linear-gradient(top,  $from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+@mixin gradient-push-button() {
+	@include gradient($color-primary, $color-primary-darker);
+}
+@mixin gradient-push-button-flip() {
+	@include gradient($color-primary-darker, $color-primary);
+}

@@ -1,0 +1,10 @@
+// _functions.scss
+// Put all general functions in here
+
+@function em($px, $context: $base-px) {
+	@return #{$px/$context}em;
+}
+
+@function rem($px, $context: $base-px) {
+	@return #{$px/$context}rem;
+}

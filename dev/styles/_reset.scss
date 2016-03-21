@@ -1,0 +1,21 @@
+// _reset.scss
+// Put all your browser-resets in this file
+
+HTML,
+BODY,
+UL,
+OL {
+	margin: 0;
+	padding: 0;
+}
+
+A {
+	text-decoration: none;
+}
+
+H1,
+H2,
+H3,
+H4 {
+	font-weight: normal;
+}

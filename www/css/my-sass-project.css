@@ -1,0 +1,60 @@
+HTML,
+BODY,
+UL,
+OL {
+  margin: 0;
+  padding: 0; }
+
+A {
+  text-decoration: none; }
+
+H1,
+H2,
+H3,
+H4 {
+  font-weight: normal; }
+
+H1 {
+  margin: 1rem; }
+
+BODY {
+  background-color: #EEE8E8;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16; }
+
+P {
+  font-size: 1.5em; }
+
+.push-button {
+  font-size: 1.25em;
+  line-height: 2.75em;
+  display: block;
+  width: 18.75em;
+  margin: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#01B590), to(#028767));
+  background: -moz-linear-gradient(top, #01B590, #028767);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01B590', endColorstr='#028767');
+  -webkit-border-radius: 0.1875em;
+  -moz-border-radius: 0.1875em;
+  border-radius: 0.1875em;
+  -webkit-box-shadow: 0.125em 0.125em 0.1875em rgba(20, 20, 20, 0.2);
+  -moz-box-shadow: 0.125em 0.125em 0.1875em rgba(20, 20, 20, 0.2);
+  box-shadow: 0.125em 0.125em 0.1875em rgba(20, 20, 20, 0.2); }
+  .push-button LABEL {
+    display: block;
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+    color: #FFFFFF; }
+  .push-button :hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#028767), to(#01B590));
+    background: -moz-linear-gradient(top, #028767, #01B590);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#028767', endColorstr='#01B590');
+    -webkit-box-shadow: 0.0625em 0.0625em 0.0625em rgba(20, 20, 20, 0.2);
+    -moz-box-shadow: 0.0625em 0.0625em 0.0625em rgba(20, 20, 20, 0.2);
+    box-shadow: 0.0625em 0.0625em 0.0625em rgba(20, 20, 20, 0.2);
+    -webkit-border-radius: 0.1875em;
+    -moz-border-radius: 0.1875em;
+    border-radius: 0.1875em;
+    cursor: pointer; }
