@@ -28,7 +28,7 @@ BODY {
 P {
   font-size: 1.5em; }
 
-.container-center {
+.container {
   position: absolute;
   top: 50%;
   left: 50%;

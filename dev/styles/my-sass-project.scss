@@ -28,15 +28,16 @@ BODY {
 	font-size: $base-px;
 	
 	height:100%;
-	width:100%;
+	width: 100%;
 }
 
 P {
 	font-size: em(24);
 }
 
-.container-center {
+.container {
 	// Quick and dirty centered div
+	
 	position: absolute;
     top: 50%;
     left: 50%;
