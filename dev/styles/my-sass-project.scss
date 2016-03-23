@@ -18,18 +18,20 @@ $color-white: #FFFFFF;
 // margins
 $margin-base: 1rem;
 
-// typography
-@import 'components/typography.scss';
-
 BODY {
 	background-color: $color-background;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
+	
+	// Most important instance for all em's
 	font-size: $base-px;
 	
 	height:100%;
 	width: 100%;
 }
+
+// typography
+@import 'components/typography.scss';
 
 P {
 	font-size: em(24);

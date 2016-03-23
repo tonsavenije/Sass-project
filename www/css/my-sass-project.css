@@ -14,9 +14,6 @@ H3,
 H4 {
   font-weight: normal; }
 
-H1 {
-  margin: 1rem; }
-
 BODY {
   background-color: #EEE8E8;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -24,6 +21,9 @@ BODY {
   font-size: 16;
   height: 100%;
   width: 100%; }
+
+H1 {
+  margin: 1rem; }
 
 P {
   font-size: 1.5em; }
